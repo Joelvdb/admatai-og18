@@ -32,9 +32,9 @@ export default class App extends React.Component {
   render(){
   return (
     <View style={styles.container}>
-      <List DATA={this.state.data}/>
-      <Animatedcountdown style={{position: 'absolute',zIndex: 5,}}/>
+      <Text style={{fontSize:80,fontWeight:'bold'}}>אוג 18 עד מתי?!</Text>
       <TextInput
+            style={{backgroundColor:'#fff',justifyContent:'center',paddingLeft:20,borderRadius:5}}
             ref={input => { this.textInput = input }}
             placeholder="עד מתי? תנו לי חיזוקים"
             keyboardType="default"
@@ -56,6 +56,9 @@ export default class App extends React.Component {
 
             }}
         />
+      <List DATA={this.state.data}/>
+      <Animatedcountdown style={{position: 'absolute',zIndex: 5,}}/>
+     
     </View>
   );
 }

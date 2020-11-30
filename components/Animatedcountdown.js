@@ -34,6 +34,9 @@ export default class Animatedcountdown extends React.Component {
 
   const styles = StyleSheet.create({
     container: {
+      top:80,
+      left:10,
+
         alignItems:'center',
         alignContent:'center',
         justifyContent:'center',
