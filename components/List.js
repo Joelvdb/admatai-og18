@@ -11,6 +11,7 @@ const Item = ({ title }) => (
 
 const List = (props) => {
   const renderItem = ({ item }) => (
+
     <Item title={item.sentence} />
   );
 
@@ -32,11 +33,22 @@ const styles = StyleSheet.create({
     marginTop: StatusBar.currentHeight || 0,
   },
   item: {
+    backgroundColor:'#ffe66d',
+    borderRadius:5,
     flex:1,
     justifyContent:'center',
     padding: 10,
     marginVertical: 8,
     marginHorizontal: 16,
+    shadowColor: "#000",
+shadowOffset: {
+	width: 0,
+	height: 2,
+},
+shadowOpacity: 0.25,
+shadowRadius: 3.84,
+
+elevation: 5,
   },
   title: {
     fontSize: 16,

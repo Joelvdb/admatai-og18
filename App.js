@@ -32,6 +32,7 @@ export default class App extends React.Component {
   render(){
   return (
     <View style={styles.container}>
+      <View style={styles.header}>
       <Text style={{fontSize:80,fontWeight:'bold'}}>אוג 18 עד מתי?!</Text>
       <TextInput
             style={{backgroundColor:'#fff',justifyContent:'center',paddingLeft:20,borderRadius:5}}
@@ -56,6 +57,7 @@ export default class App extends React.Component {
 
             }}
         />
+        </View>
       <List DATA={this.state.data}/>
       <Animatedcountdown style={{position: 'absolute',zIndex: 5,}}/>
      
@@ -67,8 +69,12 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#ddbea9',
+    backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
   },
+  header:{
+    backgroundColor:'#4ecdc4',
+    padding:10
+  }
 });
