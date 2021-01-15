@@ -6,4 +6,4 @@
 
 # Demo
 
-![demo](/RPReplay_Final1610712680.gif){: height="36px" width="36px"}
+![demo](/RPReplay_Final1610712680.gif){:height="50%" width="50%"}
