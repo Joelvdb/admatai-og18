@@ -6,4 +6,4 @@
 
 # Demo
 
-![Farmers Market Finder - Animated gif demo](/RPReplay_Final1610712680.gif width="48")
+![Farmers Market Finder - Animated gif demo](/RPReplay_Final1610712680.gif =250x250)
